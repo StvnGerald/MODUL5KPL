@@ -16,11 +16,16 @@ namespace MODUL5
             dynamic data2 = b;
             dynamic data3 = c;
 
+<<<<<<< HEAD
             dynamic biggest =a ;
+=======
+            dynamic biggest = a;
+>>>>>>> implementasi-generic-class
 
             if (biggest > data2 && biggest > data3)
             {
                 biggest = biggest;
+<<<<<<< HEAD
             } else if (data2 > biggest && data2 > data3) {
                 biggest = data2;
             } else if (data3 > biggest && data3 > data2)
@@ -28,6 +33,18 @@ namespace MODUL5
                 biggest = data3;
             }
             
+=======
+            }
+            else if (data2 > biggest && data2 > data3)
+            {
+                biggest = data2;
+            }
+            else if (data3 > biggest && data3 > data2)
+            {
+                biggest = data3;
+            }
+
+>>>>>>> implementasi-generic-class
             Console.WriteLine($"Terbesar adalah {biggest}");
         }
     }
@@ -40,4 +57,8 @@ namespace MODUL5
             data.DapatkanNilaiTerbesar(1.0, 3.0, 2.2);
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> implementasi-generic-class
